@@ -1,8 +1,7 @@
-import React from 'react'
-import { Link } from 'gatsby'
-
-import SEO from '~/components/seo'
-import ProductGrid from '~/components/ProductGrid'
+import ProductGrid from '../components/ProductGrid/ProductGrid';
+import { SEO } from '../components/seo';
+import { Link } from 'gatsby';
+import React from 'react';
 
 const IndexPage = () => (
   <>
@@ -12,6 +11,6 @@ const IndexPage = () => (
     <ProductGrid />
     <Link to="/page-2/">Go to page 2</Link>
   </>
-)
+);
 
-export default IndexPage
+export default IndexPage;
